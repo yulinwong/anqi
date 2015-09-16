@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en">
 <head>
-<title>Zeni | Blog</title>
+<title>Zeni | Single</title>
 <meta charset="utf-8">
 <!--[if lt IE 9]><script src="js/html5.js"></script><![endif]-->
 <link rel="stylesheet" media="all" href="css/style.css">
@@ -41,6 +41,8 @@
 <script src="js/modernizr.js"></script>
 <!-- SKIN -->
 <link rel="stylesheet" media="all" href="css/skin.css">
+<!-- reply move form -->
+<script src="js/moveform.js"></script>
 </head>
 <body>
 <header class="clearfix">
@@ -49,7 +51,7 @@
     <div class="wrapper">
       <div id="top-widget">
         <div class="padding">
-          <ul class="widget-cols clearfix">
+          <ul  class="widget-cols clearfix">
             <li class="first-col">
               <div class="widget-block">
                 <h4>Recent posts</h4>
@@ -106,15 +108,15 @@
         <li><a href="portfolio.html">WORK</a></li>
         <li><a href="contact.html">CONTACT</a></li>
       </ul>
+      <div id="combo-holder"></div>
     </nav>
-    <div id="combo-holder"></div>
   </div>
 </header>
 <!-- MAIN -->
 <div id="main">
   <div class="wrapper clearfix">
     <!-- posts list -->
-    <div id="posts-list">
+    <div id="posts-list" class="single-post">
       <h2 class="page-heading"><span>BLOG</span></h2>
       <article class="format-standard">
         <div class="entry-date">
@@ -123,50 +125,90 @@
         </div>
         <div class="feature-image"> <a href="img/slides/01.jpg" data-rel="prettyPhoto"><img src="img/slides/01.jpg" alt=""></a> </div>
         <h2  class="post-heading"><a href="single.html">Lorem ipsum dolor ametLorem ipsum dolor ametLorem ipsum dolor ametLorem ipsum dolor amet</a></h2>
-        <div class="excerpt">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed. </div>
-        <a href="single.html" class="read-more">continue &#8594;</a>
+        <div class="post-content">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed. </div>
         <div class="meta">
           <div class="categories">In <a href="#">Category 1</a>, <a href="#">Category 2</a></div>
           <div class="comments"><a href="#">5 comments </a></div>
           <div class="user"><a href="#">By admin</a></div>
         </div>
+        <!-- comments list -->
+        <div id="comments-wrap">
+          <h3 class="heading">5 COMMENTS</h3>
+          <ol class="commentlist">
+            <li class="comment even thread-even depth-1" id="li-comment-1">
+              <div id="comment-1" class="comment-body clearfix"> <img alt="" src="img/gravatar.jpg" class="avatar avatar-35 photo" height="35" width="35">
+                <div class="comment-author vcard">Jhon</div>
+                <div class="comment-meta commentmetadata"> <span class="comment-date">3 days ago </span> <span class="comment-reply-link-wrap"><a class="comment-reply-link" href="#respond">Reply</a></span> </div>
+                <div class="comment-inner">
+                  <p>Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+                </div>
+              </div>
+              <!-- child -->
+              <ul class='children'>
+                <li class="comment even alt depth-2" id="li-comment-2-1">
+                  <div id="comment-2" class="comment-body clearfix"> <img alt="" src="img/gravatar.jpg" class="avatar avatar-35 photo" height="35" width="35">
+                    <div class="comment-author vcard">Jhon</div>
+                    <div class="comment-meta commentmetadata"> <span class="comment-date">1 hour ago </span> <span class="comment-reply-link-wrap"><a class="comment-reply-link" href="#respond">Reply</a></span> </div>
+                    <div class="comment-inner">
+                      <p>Pellentesque ornare sem lacinia quam venenatis vestibulum. Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis.</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="comment odd alt depth-2" id="li-comment-2-2">
+                  <div id="comment-3" class="comment-body clearfix"> <img alt="" src="img/gravatar.jpg" class="avatar avatar-35 photo" height="35" width="35">
+                    <div class="comment-author vcard">Jhon</div>
+                    <div class="comment-meta commentmetadata"> <span class="comment-date">1 hour ago </span> <span class="comment-reply-link-wrap"><a class="comment-reply-link" href="#respond">Reply</a></span> </div>
+                    <div class="comment-inner">
+                      <p>Pellentesque ornare sem lacinia quam venenatis vestibulum. Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis.</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <!-- ENDS child -->
+            </li>
+            <li class="comment odd thread-even depth-1" id="li-comment-3">
+              <div id="comment-4" class="comment-body clearfix"> <img alt="" src="img/gravatar.jpg" class="avatar avatar-35 photo" height="35" width="35">
+                <div class="comment-author vcard">Jhon</div>
+                <div class="comment-meta commentmetadata"> <span class="comment-date">3 days ago </span> <span class="comment-reply-link-wrap"><a class="comment-reply-link" href="#respond">Reply</a></span> </div>
+                <div class="comment-inner">
+                  <p>Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+                </div>
+              </div>
+            </li>
+            <li class="comment even thread-even depth-1" id="li-comment-4">
+              <div id="comment-5" class="comment-body clearfix"> <img alt="" src="img/gravatar.jpg" class="avatar avatar-35 photo" height="35" width="35">
+                <div class="comment-author vcard">Jhon</div>
+                <div class="comment-meta commentmetadata"> <span class="comment-date">3 days ago </span> <span class="comment-reply-link-wrap"><a class="comment-reply-link" href="#respond">Reply</a></span> </div>
+                <div class="comment-inner">
+                  <p>Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+                </div>
+              </div>
+            </li>
+          </ol>
+        </div>
+        <!-- ENDS comments list -->
+        <!-- Respond -->
+        <div id="respond">
+          <div class="cancel-comment-reply"><a id="cancel-comment-reply-link" href="#respond" style="display:none;">Cancel reply</a></div>
+          <form action="#" method="post" id="commentform">
+            <h3 class="heading">LEAVE A REPLY</h3>
+            <input type="text" name="author" id="author" value="" tabindex="1">
+            <label for="author">Name <small>*</small></label>
+            <br/>
+            <input type="text" name="email" id="email" value="" tabindex="2">
+            <label for="email">Email <small>*</small> <span>(not published)</span></label>
+            <br/>
+            <input type="text" name="url" id="url" value="" tabindex="3">
+            <label for="url">Website</label>
+            <textarea name="comment" id="comment"  tabindex="4"></textarea>
+            <p>
+              <input name="submit" type="submit" id="submit" tabindex="5" value="Post">
+            </p>
+          </form>
+        </div>
+        <div class="clearfix"></div>
+        <!-- ENDS Respond -->
       </article>
-      <article class="format-standard">
-        <div class="entry-date">
-          <div class="number">23</div>
-          <div class="year">Sep, 2011</div>
-        </div>
-        <div class="feature-image"> <a href="img/slides/01.jpg" data-rel="prettyPhoto"><img src="img/slides/01.jpg" alt=""></a> </div>
-        <h2  class="post-heading"><a href="single.html">Lorem ipsum dolor amet</a></h2>
-        <div class="excerpt">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed. </div>
-        <a href="single.html" class="read-more">continue &#8594;</a>
-        <div class="meta">
-          <div class="categories">In <a href="#">Category 1</a>, <a href="#">Category 2</a></div>
-          <div class="comments"><a href="#">5 comments </a></div>
-          <div class="user"><a href="#">By admin</a></div>
-        </div>
-      </article>
-      <article class="format-standard">
-        <div class="entry-date">
-          <div class="number">23</div>
-          <div class="year">Sep, 2011</div>
-        </div>
-        <div class="feature-image"> <a href="img/slides/01.jpg" data-rel="prettyPhoto"><img src="img/slides/01.jpg" alt=""></a> </div>
-        <h2  class="post-heading"><a href="single.html">Lorem ipsum dolor amet</a></h2>
-        <div class="excerpt">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed. </div>
-        <a href="single.html" class="read-more">continue &#8594;</a>
-        <div class="meta">
-          <div class="categories">In <a href="#">Category 1</a>, <a href="#">Category 2</a></div>
-          <div class="comments"><a href="#">5 comments </a></div>
-          <div class="user"><a href="#">By admin</a></div>
-        </div>
-      </article>
-      <!-- page-navigation -->
-      <div class="page-navigation clearfix">
-        <div class="nav-next"> <a  href="#">&#8592; Older Entries </a> </div>
-        <div class="nav-previous"> <a href="#">Newer Entries &#8594;</a> </div>
-        <!--ENDS page-navigation -->
-      </div>
     </div>
     <!-- ENDS posts list -->
     <!-- sidebar -->
