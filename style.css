@@ -729,6 +729,45 @@ Clear Floated Elements
 			transform: scale(1.2);
 }
 
+/*----------image replace adiopoli wrapper----------*/
+.catg_nav li {
+  display: block;
+  float: left;
+  margin-right: 20px;
+  width: 48.4%;
+  margin-bottom: 5px;
+}
+.catg_nav li:nth-child(2){
+	margin-right: 0px;
+}
+.catg_nav li:nth-child(4){
+	margin-right: 0px;
+}
+.catgimg_container {
+    width:100%;
+    height: 150px;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+.catg1_img img {
+	height: 100%;
+	width:100%;
+	-webkit-transition: all 1s ease; /* Safari and Chrome */
+	-moz-transition: all 1s ease; /* Firefox */
+	-ms-transition: all 1s ease; /* IE 9 */
+	-o-transition: all 1s ease; /* Opera */
+	transition: all 1s ease;
+	transform: translate3d(0px, 0px, 0px);
+}
+.catg1_img:hover img {
+	opacity: 0.8;
+	-webkit-transform:scale(1.1); /* Safari and Chrome */
+	-moz-transform:scale(1.1); /* Firefox */
+	-ms-transform:scale(1.1); /* IE 9 */
+	-o-transform:scale(1.1); /* Opera */
+	transform:scale(1.1);
+}
+
 /*----------Widget----------*/
 .widget {
 	margin-bottom:30px;
