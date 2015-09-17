@@ -65,7 +65,7 @@ ol li {
 /*------responsive image----------------*/
 .responsive-img{
 	max-width: 100%;
-    height: auto;
+  max-height: 100%;
     width: auto\9; /* ie8 */
 }
 /* =========================================================
@@ -759,7 +759,12 @@ Clear Floated Elements
 	color:#000;
 }
 .widget .other-categories li .entry-categories, .widget .other-categories li a:hover {
-	color:#e3005a;
+	background-color: #e3005a;
+  color: #ffffff;
+  font-family:"Amita";
+  font-weight: 400;
+  line-height: 28px;
+
 }
 .widget .older-posts, .widget .recent-comments {
 	margin:0;
