@@ -220,7 +220,7 @@ h1 {
     font: 400 24px/26px "BebasNeueRegular", Arial,sans-serif;
     letter-spacing: 0;
 	margin-bottom:3px;
-	
+
 }
 h2 {
     color: #333333;
@@ -239,21 +239,21 @@ h4 {
     font: 400 18px/20px "BebasNeueRegular", Arial,sans-serif;
     letter-spacing: 0;
 	margin-bottom:3px;
-	
+
 }
 h5 {
     color: #333333;
     font: 400 16px/18px "BebasNeueRegular", Arial,sans-serif;
     letter-spacing: 0;
 	margin-bottom:3px;
-	
+
 }
 h6 {
     color: #333333;
     font: 400 14px/18px "BebasNeueRegular", Arial,sans-serif;
     letter-spacing: 0;
 	margin-bottom:3px;
-	
+
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -263,40 +263,40 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
     color: #f2472d;
 }
-p { 
+p {
 	margin-bottom:10px;
 	line-height:18px;
 }
 /* =========================================================
 Clear Floated Elements
 ============================================================ */
-.left{ 
+.left{
 	float:left;
 }
 .right{
 	float:right;
 }
-.clear {  
-	clear: both;  
-	display: block;  
-	overflow: hidden;  
-	visibility: hidden;  
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
 	width: 0;  height: 0;
 }
 .clearfix:before, .clearfix:after{
-  content: '.';  
-  display: block;  
-  overflow: hidden;  
-  visibility: hidden;  
-  font-size: 0;  
-  line-height: 0;  
-  width: 0;  
+  content: '.';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
   height: 0;
  }
-.clearfix:after{  
+.clearfix:after{
 	clear: both;
 }
-.clearfix{  
+.clearfix{
 	zoom: 1;
 }
 .hover-effect{
@@ -377,7 +377,7 @@ Clear Floated Elements
 }
 /*---Main menu---*/
 #main-menu {
-	margin:0;	
+	margin:0;
 	position:relative;
 	z-index:9999;
 	zoom:1;
@@ -402,12 +402,12 @@ Clear Floated Elements
 	text-decoration:underline;
 }
 #main-menu > li.current-menu-item {
-	background-color:#f2472d;
+	background-color:#e3005a;
 }
 /*---Dropdown menu---*/
 #main-menu li ul {
 	display:none;
-	position:absolute;	
+	position:absolute;
 	width:200px;
 	background-color:#181818;
 	margin:0;
@@ -622,7 +622,7 @@ Clear Floated Elements
 .search-box {
 	float:right;
 	position:relative;
-	background-color:#fbfbfb;	
+	background-color:#fbfbfb;
 }
 .search-box .search-text {
 	background:none;
@@ -835,7 +835,7 @@ Clear Floated Elements
     float: left;
     margin: 0 10px;
     padding: 0;
-	width:217px;    
+	width:217px;
 }
 .list-carousel ul li article img {
     display: block;
@@ -915,7 +915,7 @@ Clear Floated Elements
 .featured-widget ul li article .entry-content .entry-title {
 	font-size:14px;
 	font-family: 'Coda', cursive;
-	font-weight:800;	
+	font-weight:800;
 	margin-bottom:5px;
 }
 .featured-widget ul li article .entry-content .entry-title a {
@@ -936,7 +936,7 @@ Clear Floated Elements
 	padding:5px 5px 0;
 	margin-bottom:15px;
 }
-.column-b .entry-item header img {	
+.column-b .entry-item header img {
 	display:block;
 }
 .column-b .entry-item header p {
@@ -963,7 +963,7 @@ Clear Floated Elements
 .column-b .entry-item header .entry-comments {
 	float:right;
 	line-height:30px;
-	margin:15px 0;	
+	margin:15px 0;
 }
 /*----------Pagination----------*/
 .pagination {
@@ -1479,7 +1479,7 @@ Elements page
 	-o-transition: all .3s ease-in-out;
 	transition: all .3s ease-in-out;
 }
-.list-container-1 ul li.active a, 
+.list-container-1 ul li.active a,
 .list-container-1 ul li:hover a{
 	text-decoration:none;
 	background-color:#f2472d;
@@ -1539,7 +1539,7 @@ Elements page
 
 /*-------------Toggle Boxes-----------*/
 #toggle-view {
-    list-style:none;   
+    list-style:none;
     margin:0;
     padding:0;
 }
@@ -1551,10 +1551,10 @@ Elements page
 	position:relative;
 	cursor:pointer;
 	list-style:none;
-	
+
 }
 #toggle-view li:hover {
-	
+
 }
 #toggle-view h3 {
 	background-color:#414141;
@@ -1580,7 +1580,7 @@ Elements page
 	color:#fff;
 	line-height:40px;
 }
- 
+
 #toggle-view .panel {
 	margin:0;
 	display:none;
@@ -1635,7 +1635,7 @@ Elements page
 	padding:4px;
 }
 /*
-Back to top button 
+Back to top button
 */
 #back-top {
 	position: fixed;
@@ -1648,7 +1648,7 @@ Back to top button
 #back-top a {
 	width: 65px;
 	height: 65px;
-	display: block;	
+	display: block;
 	-webkit-transition: all 0.3s ease-in-out;
  	-moz-transition: all 0.3s ease-in-out;
  	-o-transition: all 0.3s ease-in-out;
@@ -1665,7 +1665,7 @@ Back to top button
 #back-top a:hover{
 	-webkit-box-shadow:0 0 10px 0 #00b9ef;
 	-moz-box-shadow:0 0 10px 0 #00b9ef;
-	box-shadow:0 0 10px 0 #00b9ef;	
+	box-shadow:0 0 10px 0 #00b9ef;
 }
 /* =========================================================
 Search page
@@ -2117,15 +2117,9 @@ Contact page
 	margin-top:20px;
 	margin-bottom:20px;
 }
-.kopa-pagelink a{	
+.kopa-pagelink a{
 	color:#255379;
 	text-decoration:underline;
 	font-weight:700;
 	padding-right:15px;
 }
-
-
-
-
-
-
