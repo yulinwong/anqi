@@ -702,6 +702,8 @@ Clear Floated Elements
 /*----------Widget----------*/
 .widget {
 	margin-bottom:30px;
+  width: 100%;
+  overflow: hidden;
 }
 .column-a .widget-title {
 	background-color:#414141;
@@ -761,9 +763,9 @@ Clear Floated Elements
 .widget .other-categories li .entry-categories, .widget .other-categories li a:hover {
 	background-color: #e3005a;
   color: #ffffff;
-  font-family:"Amita";
-  font-weight: 400;
-  line-height: 28px;
+  font-family:"Lato";
+  font-weight: 300;
+  line-height: 1.5;
 
 }
 .widget .older-posts, .widget .recent-comments {
