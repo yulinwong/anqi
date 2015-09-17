@@ -73,7 +73,7 @@ Elements
 ============================================================ */
 .more-link {
 	font-size:15px;
-	color:#f2472d;
+	color:;
 	background:url(images/icons/more-link-icon.png) no-repeat left center;
 	padding-left:20px;
 }
@@ -99,7 +99,7 @@ Elements
 }
 
 .kp-dropcap.orange {
-    background: none repeat scroll 0 0 #f2472d;
+    background: none repeat scroll 0 0 ;
     color: #fff;
 	height:55px;
 	line-height:50px;
@@ -131,7 +131,7 @@ Elements
 	display:inline-block;
 }
 .kp-tag:hover {
-	color:#f2472d;
+	color:;
 }
 blockquote {
 	color:#666;
@@ -261,7 +261,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
-    color: #f2472d;
+    color: ;
 }
 p {
 	margin-bottom:10px;
@@ -361,7 +361,7 @@ Clear Floated Elements
 }
 #header-top {
 	background-color:#000;
-	border-bottom:7px solid #f2472d;
+	border-bottom:7px solid #e3005a;
 	margin-bottom:20px;
 	box-shadow:1px 5px 5px rgba(147,147,147,0.75);
 	-moz-box-shadow:1px 5px 5px rgba(147,147,147,0.75);
@@ -415,7 +415,7 @@ Clear Floated Elements
 #main-menu > li > ul {
 	top:54px;
 	left:0;
-	border-top:1px solid #f2472d;
+	border-top:1px solid #e3005a;
 }
 #main-menu li ul li {
 	list-style:none;
@@ -433,7 +433,7 @@ Clear Floated Elements
 	font-size:14px;
 }
 #main-menu li ul li:hover > a {
-	color:#f2472d;
+	color:#e3005a;
 }
 #main-menu li ul li ul {
 	top:0;
@@ -545,7 +545,7 @@ Clear Floated Elements
 
 .breadcrumb .current-page,
 .breadcrumb a {
-	color:#f2472d;
+	color:#e3005a;
 }
 .breadcrumb a:hover {
 	text-decoration:underline;
@@ -637,7 +637,7 @@ Clear Floated Elements
  	transition: all 0.3s ease-in-out;
 }
 .search-box .search-text:focus {
-	border:1px solid #F2472D;
+	border:1px solid #e3005a;
 }
 .search-box .search-submit {
 	border:none;
@@ -711,7 +711,7 @@ Clear Floated Elements
 }
 .entry-categories {
 	font-size:13px;
-	color:#f2472d;
+	color:#e3005a;
 	font-family: 'Coda', cursive;
 	display:inline-block;
 }
@@ -737,7 +737,7 @@ Clear Floated Elements
 	color:#222;
 }
 .widget .entry-title a:hover {
-	color:#f2472d;
+	color:#e3005a;
 }
 .widget .entry-item .entry-thumb {
 	margin-bottom:10px;
@@ -759,7 +759,7 @@ Clear Floated Elements
 	color:#000;
 }
 .widget .other-categories li .entry-categories, .widget .other-categories li a:hover {
-	color:#f2472d;
+	color:#e3005a;
 }
 .widget .older-posts, .widget .recent-comments {
 	margin:0;
@@ -775,7 +775,7 @@ Clear Floated Elements
 	color:#222;
 }
 .widget .older-posts li:hover, .widget .older-posts li a:hover {
-	color:#f2472d;
+	color:#e3005a;
 }
 .widget .recent-comments li {
 	margin:0 0 15px;
@@ -787,7 +787,7 @@ Clear Floated Elements
 	color:#222;
 }
 .widget .recent-comments li header a {
-	color:#f2472d;
+	color:#e3005a;
 }
 .widget .recent-comments li header a:hover {
 	text-decoration:underline;
@@ -806,7 +806,7 @@ Clear Floated Elements
 	Column b
 ============================================================ */
 .column-b .widget-title {
-	border-top:7px solid #f2472d;
+	border-top:7px solid #e3005a;
 	padding-top:10px;
 	font-size:20px;
 	background:url(images/background/pattern-4.png) repeat-x 0 12px;
@@ -814,7 +814,7 @@ Clear Floated Elements
 	margin-bottom:20px;
 }
 .column-b .widget-title span {
-	color:#f2472d;
+	color:#e3005a;
 	background-color:#fff;
 	padding-right:10px;
 }
@@ -901,7 +901,7 @@ Clear Floated Elements
 	line-height:14px;
 }
 .entry-comments {
-	color:#f2472d;
+	color:#e3005a;
 	font-size:13px;
 	font-family: 'Coda', cursive;
 }
@@ -922,7 +922,7 @@ Clear Floated Elements
 	color:#222;
 }
 .featured-widget ul li article .entry-content .entry-title a:hover {
-	color:#f2472d;
+	color:#e3005a;
 }
 .featured-widget {
 	position:relative;
@@ -981,7 +981,7 @@ Clear Floated Elements
 	text-align:center;
 }
 .pagination li.current, .pagination li:hover {
-	background-color:#f2472d;
+	background-color:#e3005a;
 }
 .pagination li a {
 	line-height:45px;
@@ -1022,12 +1022,12 @@ Clear Floated Elements
 	font-size:16px;
 }
 .tweet_text .at, .tweet_text a {
-	color:#f2472d;
+	color:#e3005a;
 }
 .tweet_text .at:hover,
 .tweet_text a:hover {
 	text-decoration:underline;
-	color:#f2472d;
+	color:#e3005a;
 }
 
 .column-a .tweet_avatar {
@@ -1084,7 +1084,7 @@ Clear Floated Elements
 	float:left;
 }
 .bottom-sidebar .widget .kp-categories li:hover, .bottom-sidebar .widget .kp-categories li a:hover {
-	color:#f2472d;
+	color:#e3005a;
 }
 .bottom-sidebar .kp-dropcap.dark {
 	border-radius:50%;
@@ -1129,7 +1129,7 @@ Clear Floated Elements
 	font-size:15px;
 }
 .bottom-menu li a:hover {
-	color:#f2472d;
+	color:#e3005a;
 }
 /* =========================================================
 Column page
@@ -1138,7 +1138,7 @@ Column page
 	margin:20px 0 15px 0;
 	border-bottom:1px solid #cdcdcd;
 	padding-bottom:10px;
-	color:#f2472d;
+	color:#e3005a;
 	font-size:16px;
 	font-family: 'Coda', cursive;
 	font-weight:800;
@@ -1222,7 +1222,7 @@ Elements page
 	line-height:14px;
 }
 .big-button:hover, .medium-button:hover, .small-button:hover {
-	background-color:#f2472d;
+	background-color:#e3005a;
 	color:#fff;
 }
 .medium-button {
@@ -1327,7 +1327,7 @@ Elements page
 	font-size:16px;
 	display:inline-block;
 	padding:10px 20px;
-	background-color:#f2472d;
+	background-color:#e3005a;
 }
 
 .red-button:hover {
@@ -1460,7 +1460,7 @@ Elements page
 	margin:0;
 	background-color:#414141;
 	padding:4px 0 0 20px;
-	border-bottom:4px solid #f2472d;
+	border-bottom:4px solid #e3005a;
 }
 .list-container-1 ul li{
 	list-style:none;
@@ -1482,7 +1482,7 @@ Elements page
 .list-container-1 ul li.active a,
 .list-container-1 ul li:hover a{
 	text-decoration:none;
-	background-color:#f2472d;
+	background-color:#e3005a;
 }
 .tab-container-1 {
 	border:1px solid #e7e7e7;
@@ -1522,7 +1522,7 @@ Elements page
 .list-container-2 ul li:hover a {
 	text-decoration:none;
 	background-color:#fff;
-	color:#f2472d;
+	color:#e3005a;
 	margin-bottom:-4px;
 	padding:10px 20px 14px;
 }
@@ -1566,7 +1566,7 @@ Elements page
 	padding:0 15px;
 }
 #toggle-view h3:hover {
-	background:#f2472d;
+	background:#e3005a;
 }
 #toggle-view span {
 	position:absolute;
@@ -1609,7 +1609,7 @@ Elements page
 	font-family: "BebasNeueRegular", Arial,sans-serif;
 }
 .accordion-title.active, .accordion-title:hover {
-	background-color:#f2472d;
+	background-color:#e3005a;
 }
 .accordion-title.active a,
 .accordion-title:hover a {
@@ -1653,7 +1653,7 @@ Back to top button
  	-moz-transition: all 0.3s ease-in-out;
  	-o-transition: all 0.3s ease-in-out;
  	transition: all 0.3s ease-in-out;
-	background:url(images/background/back-top-bg.png) no-repeat center center #f2472d;
+	background:url(images/background/back-top-bg.png) no-repeat center center #e3005a;
 	text-indent:-99999px;
 	box-shadow: 0 1px 2px rgba(0,0,0,0.67);
 	-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.67);
@@ -1710,7 +1710,7 @@ Search page
 	margin-left:5px;
 }
 .entry-meta .entry-comments span {
-	color:#f2472d;
+	color:#e3005a;
 }
 .kopa-search-keyword {
 	background-color:#ff9686;
@@ -1735,7 +1735,7 @@ Single page
 .entry-box header .entry-author {
 	font-family: 'Coda', cursive;
 	font-size:14px;
-	color:#f2472d;
+	color:#e3005a;
 	line-height:28px;
 }
 .entry-box header .entry-author:hover {
@@ -1746,7 +1746,7 @@ Single page
 	font-size:20px;
 	font-family: 'Coda', cursive;
 	font-weight:800;
-	background:#f2472d;
+	background:#e3005a;
 	display:inline-block;
 	float:right;
 	line-height:1;
@@ -1800,7 +1800,7 @@ Single page
 #comments h3,
 #respond h3,
 .related-widget h3 {
-	color:#f2472d;
+	color:#e3005a;
 	margin-bottom:15px;
 }
 .about-author a {
@@ -1856,7 +1856,7 @@ Single page
 .comment-wrap .comment-body .comment-meta .author {
 	display:inline-block;
 	font-size:15px;
-	color:#f2472d;
+	color:#e3005a;
 	margin-right:5px;
 	font-family: 'Coda', cursive;
 }
@@ -1871,7 +1871,7 @@ Single page
 }
 .comment-wrap .comment-body .comment-reply-link, .comment-wrap .comment-body .comment-edit-link {
 	display:inline-block;
-	color:#f2472d;
+	color:#e3005a;
 }
 .comment-wrap .comment-body .comment-reply-link:hover, .comment-wrap .comment-body .comment-edit-link:hover {
 	text-decoration:underline;
@@ -1903,7 +1903,7 @@ Single page
 	font-family: 'Coda', cursive;
 }
 .comment-pagination .current {
-	color:#f2472d;
+	color:#e3005a;
 }
 /*--------------Comment Form--------------*/
 #respond {
@@ -1965,7 +1965,7 @@ Single page
 #contact_email:focus,
 #contact_url:focus,
 #contact_message:focus {
-	border:1px solid #f2472d;
+	border:1px solid #e3005a;
 }
 
 .comment-button,
@@ -1975,7 +1975,7 @@ Single page
 #submit-comment,
 #submit-contact {
 	border:none;
-    background-color: #F2472D;
+    background-color:#e3005a;
     color: #FFFFFF;
     display: inline-block;
     font-family: 'Coda', cursive;
@@ -1999,12 +1999,12 @@ Single page
 	right:0;
 	bottom:-20px;
 	font-family: 'Coda', cursive;
-	color:#f2472d;
+	color:#e3005a;
 }
 
 #response {
 	font-family: 'Coda', cursive;
-	color:#f2472d;
+	color:#e3005a;
 	font-size:14px;
 }
 
@@ -2042,7 +2042,7 @@ Single page
 	margin-bottom:5px;
 }
 .related-widget .entry-content a:hover {
-	color:#f2472d;
+	color:#e3005a;
 }
 .related-widget .entry-content .entry-date,
 .related-widget .entry-content .entry-meta {
@@ -2055,7 +2055,7 @@ Single page
 }
 .related-widget .entry-content .entry-comments {
 	font-size:10px;
-	color:#f2472d;
+	color:#e3005a;
 	display:inline-block;
 	font-family: 'Coda', cursive;
 }
