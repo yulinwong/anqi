@@ -714,7 +714,7 @@ Clear Floated Elements
 
 .article-photo img {
   border-radius: 50%;
-  padding: 20px 10px 10px 100px;
+  padding: 20px 10px 50px 100px;
 	-webkit-transition: all 0.6s ease 0s;
 	   -moz-transition: all 0.6s ease 0s;
 		 -o-transition: all 0.6s ease 0s;
