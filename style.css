@@ -1059,7 +1059,7 @@ Clear Floated Elements
 }
 .pagination li a {
 	line-height:45px;
-	font-size:18px;
+	font-size:16px;
 	font-family: 'Amita', cursive;
 }
 .pagination li.current a, .pagination li:hover a {
