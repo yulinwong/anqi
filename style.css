@@ -750,8 +750,9 @@ Clear Floated Elements
     margin-bottom: 8px;
 }
 .catg1_img img {
-	height: 100%;
-	width:100%;
+	width: 329px;
+	height: 194px;
+  padding-bottom: 10px;
 	-webkit-transition: all 1s ease; /* Safari and Chrome */
 	-moz-transition: all 1s ease; /* Firefox */
 	-ms-transition: all 1s ease; /* IE 9 */
@@ -1059,7 +1060,7 @@ Clear Floated Elements
 .pagination li a {
 	line-height:45px;
 	font-size:18px;
-	font-family: 'Coda', cursive;
+	font-family: 'Amita', cursive;
 }
 .pagination li.current a, .pagination li:hover a {
 	color:#fff;
