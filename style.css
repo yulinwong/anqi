@@ -367,7 +367,8 @@ Clear Floated Elements
 	box-shadow:1px 5px 5px rgba(147,147,147,0.75);
 	-moz-box-shadow:1px 5px 5px rgba(147,147,147,0.75);
 	-webkit-box-shadow:1px 5px 5px rgba(147,147,147,0.75);
-	position:relative;
+	position:fixed;
+  width: 100%;
 	z-index:9999;
 }
 /*----------Main Nav----------*/
