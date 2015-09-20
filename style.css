@@ -366,7 +366,7 @@ Clear Floated Elements
 	box-shadow:1px 5px 5px rgba(147,147,147,0.75);
 	-moz-box-shadow:1px 5px 5px rgba(147,147,147,0.75);
 	-webkit-box-shadow:1px 5px 5px rgba(147,147,147,0.75);
-	position:fixed;
+	position:relative;
   width: 100%;
 	z-index:9999;
 }
@@ -464,7 +464,7 @@ Clear Floated Elements
 	Main Content
 ============================================================ */
 #main-content {
-	margin-top:20px;
+	margin-top:90px;
 	position:relative;
 	border-left: 1px solid #b4b4b4;
     border-right: 1px solid #b4b4b4;
@@ -750,8 +750,8 @@ Clear Floated Elements
     margin-bottom: 8px;
 }
 .catg1_img img {
-	width: 329px;
-	height: 194px;
+	width: 320px;
+	height: 190px;
   padding-bottom: 10px;
 	-webkit-transition: all 1s ease; /* Safari and Chrome */
 	-moz-transition: all 1s ease; /* Firefox */
