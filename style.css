@@ -355,7 +355,6 @@ Clear Floated Elements
 	Header
 ============================================================ */
 #header {
-	height:242px;
 	border-bottom:1px solid #c7c7c7;
 	background:url(images/background/pattern-2.png) repeat 0 0 #dfdfdf;
 	z-index:9999;
