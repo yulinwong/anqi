@@ -366,7 +366,7 @@ Clear Floated Elements
 	box-shadow:1px 5px 5px rgba(147,147,147,0.75);
 	-moz-box-shadow:1px 5px 5px rgba(147,147,147,0.75);
 	-webkit-box-shadow:1px 5px 5px rgba(147,147,147,0.75);
-	position:relative;
+	position:fixed;
   width: 100%;
 	z-index:9999;
 }
@@ -464,7 +464,11 @@ Clear Floated Elements
 	Main Content
 ============================================================ */
 #main-content {
+<<<<<<< HEAD
 	margin-top:70px;
+=======
+	margin-top:20px;
+>>>>>>> parent of a0de14a... edit column b image dimension
 	position:relative;
 	border-left: 1px solid #b4b4b4;
     border-right: 1px solid #b4b4b4;
