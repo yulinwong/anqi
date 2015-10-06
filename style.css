@@ -533,7 +533,7 @@ Clear Floated Elements
 	background:none;
 }
 .sub-page.v-divider .main-content-bottom {
-	background:url("images/background/line-1.gif") repeat-y scroll 760px 0 transparent;
+	background:url(images/background/line-1.gif) repeat-y scroll 760px 0 transparent;
 }
 /*----------Breadcrumb----------*/
 .breadcrumb {
